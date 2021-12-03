@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Simple Form Sample</title>
+    </head>
+    <body style="background-color: rgb(176, 243, 149);">
+    <h3 align="center"><span style="color:rgb(119, 3, 3)">Form</span>&nbsp;<span style="color:rgb(228, 207, 19)">Sample</span></h3>
+    <form action="/action_page.php" enctype="multipart" method="POST" target="_blank">
+        <lable for="first name">First Name:</lable>
+        <input type="text" id="Fname" name="Fname" required placeholder="Sana"><br>
+        </br>
+        <lable for="Last name">Last Name:</lable>
+        <input type="text" id="Lname" name="lname" reguired placeholder="khan"><br>
+    <br/>
+    <lable for="age">Age:</lable>
+    <input type="number" id="age" name="age"><br>
+<br/> 
+<lable for="gender">Gender:</lable><br>
+<input type="radio" name="gender" value="Male">Male<br>
+<input type="radio" name="gender" value="Female">Female<br>
+<input type="radio" name="gender" value="other">Other<br>
+<br/>
+<lable for="vehicles">Vehicles Available:</lable><br>
+<input type="checkbox" name="v1">Bike<br>
+<input type="checkbox" name="v2">Schooty<br>
+<input type="checkbox" name="v3">Car<br>
+<input type="checkbox" name="v4">Van<br>
+<input type="checkbox" name="v5">Bus<br>
+<br/>
+<lable for="password">Password:&nbsp;</lable>
+<input type="password" name="password" required placeholder="sana@mail.com" disabled="disabled"><br>
+<br/>
+<input type="Reset"><br>
+<br/>
+<input type="submit" value="Submit the form"><br>
+<br/>
+<input type="button" onclick="alert(hello)" value="Click me!">
+<br/>
+<lable for="file">Choose file:&nbsp</lable>
+<input type="file" name="My file" multiple="multiple" >
+<br/>
+</form>
+<hr/>
+<!--inputs used in HTML 5 only-->
+<h3 align="center"><span style="color: rgb(51, 19, 83);">HTML5 Inputs</h3>
+<form action="/action_page.php" method="POST" enctype="form data" target="_blank">
+    <lable for="color">Choose your favourite color:&nbsp;</lable>
+    <input type="color" name="Color"><br>
+    <br/>
+    <lable for="date">ENter your date of birth:&nbsp;</lable>
+    <input type="date" name="bday"><br>
+    <br/>
+    <lable for="datetime-local">Enter your date and time  of your birth:&nbsp; </lable>
+    <input type="datetime-local" name="bdaytime"><br>
+    <br/>
+<lable for="Email">Email: &nbsp;</lable>
+<input type="email" name="email" reguired><br>
+<br/>
+<lable for="drop-down-list">District:</lable><br/>
+<select name="district">
+    <option value=" ">--select--</option>
+    <option value="Kathmandu">KAthmandu</option>
+    <option value="Kathmandu">Bhaktapur</option>
+    <option value="Kathmandu">Lalitpur</option>
+    <option value="Kathmandu">Sindupalchowk</option>
+    <option value="Kathmandu">Kavre</option>
+    <option value="Kathmandu">Khotang</option>
+    <option value="Kathmandu">Manang</option>
+    <option value="Kathmandu">Mustang</option>
+</select><br>
+<br/>
+<!--Selection up to n term-->
+<lable for="drop-down-list">District:</lable><br/>
+<select name="district" size="3">
+    <option value=" ">--select--</option>
+    <option value="Kathmandu">KAthmandu</option>
+    <option value="Kathmandu">Bhaktapur</option>
+    <option value="Kathmandu">Lalitpur</option>
+    <option value="Kathmandu">Sindupalchowk</option>
+    <option value="Kathmandu">Kavre</option>
+    <option value="Kathmandu">Khotang</option>
+    <option value="Kathmandu">Manang</option>
+    <option value="Kathmandu">Mustang</option><br>
+</select><br/>
+<!--multiple selection-->
+<lable for="drop-down-list">District:</lable><br/>
+<select name="district" multiple>
+    <option value=" ">--select--</option>
+    <option value="Kathmandu">KAthmandu</option>
+    <option value="Kathmandu">Bhaktapur</option>
+    <option value="Kathmandu">Lalitpur</option>
+    <option value="Kathmandu">Sindupalchowk</option>
+    <option value="Kathmandu">Kavre</option>
+    <option value="Kathmandu">Khotang</option>
+    <option value="Kathmandu">Manang</option>
+    <option value="Kathmandu">Mustang</option>
+</select><br/>
+<lable for="message">Message:&nbsp;</lable>
+<textarea name="message" row="10" col="10">    </textarea>
+
+
+   </form>
+    </body>
+</html>
